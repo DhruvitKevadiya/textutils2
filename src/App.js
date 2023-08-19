@@ -17,6 +17,7 @@ function App() {
 
   const showAlert = (message, type) => {
     setAlert({
+      msg
       msg: message,
       type: type
       // bootstrap ma 4 type ni alert (one of them is success)
